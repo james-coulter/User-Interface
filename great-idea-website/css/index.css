@@ -182,3 +182,18 @@ hr {
 	font-weight: strong;
 
 }
+
+.contact address {
+	margin: 4% 0%;
+}
+
+.contact .phone {
+	margin: 4% 0%;
+}
+
+footer p {
+	margin: 5% auto;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
