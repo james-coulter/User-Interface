@@ -65,9 +65,36 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-header nav {
-
+nav {
 	display: inline-block;
-	background: yellow;
+}
 
+.topnav {
+	padding: 14px 60px;
+}
+ .topnav a {
+
+	color: lightgrey;
+	text-align: center;
+	padding: 14px 120px 0 0;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.hero {
+	display: inline-block;
+	text-align: center;
+
+}
+
+.bigText {
+	display: inline;
+	margin: 100px 100px;
+	text-align: center;
+}
+
+.hero img {
+	display: inline;
+	margin: 100px 100px;
 }
