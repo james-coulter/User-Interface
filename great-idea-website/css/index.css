@@ -48,6 +48,7 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
+
 * {
     box-sizing: border-box;
 }
@@ -64,3 +65,176 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 3%;
+}
+
+nav {
+	display: inline-block;
+	position: fixed; 
+  	top: 0; 
+	width: 90%;
+	padding-bottom: 1%;
+	background:#ffb347;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	transition-duration: 1s;
+	  
+}
+
+nav:hover {
+	display: inline-block;
+	position: fixed; 
+  	top: 0; 
+	width: 90%;
+	padding-bottom: 1%;
+	background:#ffb347;
+	border-bottom-left-radius: 110px;
+	border-bottom-right-radius: 110px;
+	  
+}
+
+.topnav {
+	display: inline-block;
+	width: 80%;
+	margin-top: 1%;
+}
+
+ .topnav a {
+
+	color: white;
+	margin: 14px 5% 0 3%;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: bold;
+	transition-duration: 1s;
+	display: inline-block;
+}
+
+.topnav a:hover {
+
+	color: rgb(243, 247, 10);
+	margin: 14px 5% 120px 3%;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.logo {
+	display: inline-block;
+	width: 10%;
+	filter: invert(1)
+}
+
+.hero {
+	margin-top: 10%;
+}
+.bigText {
+	display: inline-block;
+	width: 30%;
+	padding: 5% 5% 5% 5%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	margin-left: 10%;
+	text-align: center;
+	font-size: 75px;
+}
+
+.bigText a {
+	font-size: 20px;
+	text-decoration: none;
+	border: 1px solid black;
+	color: black;
+	padding: 1% 15%;
+	margin-top: 0;
+	transition-duration: 1s;
+}
+
+.bigText a:hover {
+
+	border: 1px solid #ffb347;
+	color: #ffb347;
+}
+
+.hero img {
+	display: inline-block;
+	width: 40%;
+	padding: 0% 5%;
+}
+
+hr {
+	display: block;
+	border: 0.5px solid black;
+}
+
+.sectionTwo {
+	font-size: 20px;
+}
+.tableTwo {
+	display: inline-block;
+	width: 40%;
+	margin: 2% 10% 2% 0%;
+}
+
+.tableThree {
+	display: inline-block;
+	width: 40%;
+}
+
+.middle-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.sectionThree {
+	font-size: 20px;
+}
+.tableFour {
+	display: inline-block;
+	width: 28%;
+	margin: 2% 7% 2% 0%;
+}
+
+.tableFive {
+	display: inline-block;
+	width: 28%;
+	margin: 2% 7% 2% 0%;
+}
+
+.tableSix {
+	display: inline-block;
+	width: 28%;
+}
+
+.contact {
+	display: block;
+	width: 25%;
+	margin-top: 2%;
+}
+
+.contact h3 {
+	font-weight: strong;
+
+}
+
+.contact address {
+	margin: 4% 0%;
+}
+
+.contact .phone {
+	margin: 4% 0%;
+}
+
+footer p {
+	margin: 5% auto;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
